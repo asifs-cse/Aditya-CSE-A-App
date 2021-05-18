@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.UploadActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/pdf_notice_toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Material PDF"/>
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:layout_below="@+id/pdf_notice_toolbar"
+            android:id="@+id/wrapper1">
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/set_material_subId"
+                android:layout_below="@+id/pdf_notice_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Material Subject"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:layout_below="@+id/wrapper1"
+            android:id="@+id/wrapper2">
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/set_materialTitle"
+                android:layout_below="@+id/pdf_notice_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Material Title"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/material_submit_btn"
+            android:layout_below="@+id/wrapper2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/buttons_primary"
+            android:layout_marginTop="20dp"
+            android:text="Select PDF"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

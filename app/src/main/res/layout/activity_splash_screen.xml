@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".View.Splash.SplashScreen">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageId"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/splashTextId"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engenius"
+                android:textColor="@color/colorWhite"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titleId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aditya College of Engineering"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentBottom="true"
+            android:gravity="end"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

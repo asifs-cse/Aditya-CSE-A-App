@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Menu"
+        android:icon="@drawable/option"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/navigation_rate"
+                android:icon="@drawable/rate_us"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/navigation_more_app"
+                android:icon="@drawable/apps"
+                android:title="More Apps" />
+
+            <item
+                android:id="@+id/navigation_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+        </menu>
+    </item>
+</menu>

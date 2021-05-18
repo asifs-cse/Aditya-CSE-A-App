@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9176669542",
+    "project_id": "engineers-f801e",
+    "storage_bucket": "engineers-f801e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9176669542:android:05d520715c470eda783ca7",
+        "android_client_info": {
+          "package_name": "com.jntuk.engineers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9176669542-5jqjeo05idghtru7fd2fdjboknfmgjbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwy4Rl4dREjxepgBnH64JcPLP5UH1ZyY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9176669542-5jqjeo05idghtru7fd2fdjboknfmgjbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
